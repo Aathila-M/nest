@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+    color:dark charcoal;
+}
+.navbar{
+    box-shadow: 0 4px  6px rgba(0,0,0,0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav .nav-link.active{
+    color: gold !important;
+    font-weight: bold;
+}
+
+/* Home*/
+#home {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color: white;
+    padding: 80px 0;
+}
+#home h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#home p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.carousel {
+    margin-top: 20px;
+}
+.carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+/* container header*/
+.container.mt-5 h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.container.mt-5 p.text-center{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+/* cards*/
+.card{
+    width: 18rem;
+    margin: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img{
+    object-fit: cover;
+    height: 200px;
+    border-top-left-radius: calc(0.25rem -1px);
+    border-top-right-radius: calc(00.25rem -1px_);
+}
+/* Contact Container */
+.container {
+    padding: 20px;
+}
+
+/* Heading */
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: dark charcoal;
+}
+
+/* Form Elements */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Button */
+.btn-primary {
+    background-color:blue ;
+    border-color: blue;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+/* Paragraphs in Content */
+.container p {
+    line-height: 1.6;
+    margin-top: 20px;
+}
+@media(max-width:768px) {
+    #home h1{
+        font-size: 2rem;
+    }
+    #home p{
+        font-size: 1rem;
+    }
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: black;
+  }
